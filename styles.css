@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -13,15 +14,20 @@ html {
   text-decoration: underline !important;
 }
 
+.main-header {
+  font-family: 'Pacifico', cursive;
+}
+
 #all-events {
   position: absolute;
   margin-top: 2%;
-  padding: 8%;
+  padding: 10%;
   padding-top: 5%;
   animation: 1.5s scroll-up-compromise;
 }
 
 section {
+  position: relative;
   height: fit-content;
   border: 2px solid white;
   border-radius: 0.25rem;
@@ -74,6 +80,18 @@ section {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.source {
+  text-decoration: underline;
+}
+
+.scroll-up {
+  position: fixed !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  border-radius: 0px !important;
+  width: 10% !important;
 }
 
 @keyframes scroll-up-compromise {
