@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(46, 43, 43);
+}
+
+.nav-item {
+  text-decoration: underline !important;
+}
+
+#all-events {
+  position: absolute;
+  margin-top: 2%;
+  padding: 8%;
+  padding-top: 5%;
+  animation: 1.5s scroll-up-compromise;
+}
+
+section {
+  height: fit-content;
+  border: 2px solid white;
+  border-radius: 0.25rem;
+  padding: 2%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  box-shadow: 1px 1px 5px rgba(32, 32, 32, 0.87);
+}
+
+#compromise-header,
+#fugitive-header,
+#tom-header,
+#kansas-nebraska-header,
+#formation-header,
+#dred-header,
+#lincoln-header {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.compromise_header,
+.fugitive_header,
+.tom_header,
+.kansas-nebraska_header,
+.formation_header,
+.dred_header,
+.lincoln_header {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.kansas-nebraska-text,
+.lincoln-text,
+.dred-text,
+.formation-text,
+.compromise-text,
+.fugitive-text,
+.tom-text {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes scroll-up-compromise {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 2%;
+  }
+}
