@@ -21,6 +21,7 @@ html {
 #all-events {
   position: absolute;
   margin-top: 2%;
+  margin: auto;
   padding: 10%;
   padding-top: 5%;
   animation: 1.5s scroll-up-compromise;
