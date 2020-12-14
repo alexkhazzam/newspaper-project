@@ -26,7 +26,8 @@ html {
   text-decoration: underline !important;
 }
 
-.main-header {
+.main-header,
+.one-header {
   font-family: 'Pacifico', cursive;
 }
 
@@ -40,7 +41,11 @@ html {
 }
 
 section {
-  background-color: rgb(46, 43, 43);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(89, 92, 90, 0.85),
+    rgba(33, 36, 33, 0.85)
+  );
   position: relative;
   height: fit-content;
   border: 2px solid white;
